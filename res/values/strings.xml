@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">headspin</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="consumer_key"></string>
+    <string name="consumer_secret"></string>
+
+    <string name="request_token_endpoint_url">http://www.plurk.com/OAuth/request_token</string>
+    <string name="access_token_endpoint_url">http://www.plurk.com/OAuth/access_token</string>
+    <string name="authorization_website_url">http://www.plurk.com/m/authorize</string>
+    <string name="callback_url">headspin://headspin.nkm3.org/callback/</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity" >
+
+    <TextView
+            android:id="@+id/parsed_json_textview"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:maxLines="10"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="headspin"
+            android:id="@+id/headspin_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:id="@+id/logout_button" android:layout_alignRight="@+id/parsed_json_textview"
+            android:layout_alignParentBottom="true"/>
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText" android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false" android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true" android:layout_alignParentBottom="false"/>
+
+</RelativeLayout>
